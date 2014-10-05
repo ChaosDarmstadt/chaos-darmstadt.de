@@ -1,0 +1,26 @@
+<header class="header">
+		<div class="hero row">
+					<div class="col-8 push-2">
+						<a href="{{ site.url }}">
+							<h1>Chaos Darmstadt e.V.</h1>
+						</a>
+						<h4>
+							Lorem ipsum dolor.
+						</h4>
+					</div>
+					<div class="logo col-2">
+						<img src="assets/logo.png" alt="Logo">
+					</div>
+		</div>
+		<nav class="nav row">
+				<ul class="menu col-8 push-2">
+					{% for page in site.pages %}
+						{% if page.title %}
+						<li class="nav-item">
+							<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+		</nav>
+	</header>

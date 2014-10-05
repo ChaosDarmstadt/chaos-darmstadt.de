@@ -1,0 +1,17 @@
+@for $i from 1 through 4 {
+
+	h#{$i}{
+		$fz: $font-size * (3 / ($i * 0.8));
+		font-size: $fz;
+		color: $primary-color;
+		font-weight: 300;
+		line-height: $fz * $font-scale;
+		margin-top: ($fz / 3) * 1;
+		margin-bottom: ($fz / 3) * 2; 
+	}
+}
+
+p{
+	text-align: justify;
+	line-height: $font-size * $font-scale;
+}
