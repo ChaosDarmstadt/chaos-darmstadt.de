@@ -1,13 +1,14 @@
 @for $i from 1 through 4 {
 
 	h#{$i}{
-		$fz: $font-size * (3 / ($i * 0.8));
-		font-size: $fz;
-		color: $primary-color;
+		$fz:((8 / $i) / $font-scale);
+		font-size: #{$fz}rem;
+		color: $primary-color; 
+		font-family: $font-family;
 		font-weight: 300;
-		line-height: $fz * $font-scale;
+		line-height: ($font-scale / (6 / $i / $fz));
 		margin-top: ($fz / 3) * 1;
-		margin-bottom: ($fz / 3) * 2; 
+		margin-bottom: ($fz / 3) * 2;
 	}
 }
 
