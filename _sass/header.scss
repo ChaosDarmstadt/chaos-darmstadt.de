@@ -6,14 +6,22 @@
 	background-size: cover; 
 	overflow: hidden;
 	position: relative;	
-	&:before{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: rgba($primary-color, .8);
-		content: "";
+
+	.logo{
+		height: 10rem;
+		padding: 1rem;
+		top: 8rem;
+		background: white;
+		right:0;
+		width: 20rem;
+		position:absolute;
+		img{
+			max-height: 100%;
+			width: auto;
+		}
+		@include small-only{
+			display: none;
+		}
 	}
 
 .hero{
@@ -21,16 +29,6 @@
 	padding: 50px 0 30px 0;
 	@include small-only{
 		padding-top: 0px;
-	}
-	.logo{
-		img{
-			max-width: 100%;
-			height: auto;
-			padding-top: 2.8rem;
-			@include small-only{
-				max-width: 30%;
-			}
-		}
 	}
 	h1, h4{
 		color: $header-color;  
