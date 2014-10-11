@@ -1,6 +1,6 @@
 .header{
 	background: $primary-color 
-				url(http://chaos-darmstadt.de/lib/images/header.jpg) center;
+				url(../assets/header.jpg) center;
 	-webkit-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover; 
@@ -10,8 +10,8 @@
 	.logo{
 		height: 10rem;
 		padding: 1rem;
-		top: 8rem;
-		background: white;
+		top: 9.5rem;
+		background: $body-bg;
 		right:0;
 		width: 20rem;
 		position:absolute;
@@ -31,7 +31,7 @@
 		padding-top: 0px;
 	}
 	h1, h4{
-		color: $header-color;  
+		color: $header-color;
 	} 
 	h1{
 		font-weight: 300;
@@ -52,7 +52,7 @@
 	ul{
 		list-style: none;
 		margin: 0;
-		background: darken($primary-color, 10%);
+		background: $primary-color;
 		li{
 			display: inline-block;
 			margin-right: $gutter;
