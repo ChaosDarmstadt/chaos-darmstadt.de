@@ -19,7 +19,7 @@ sass:
 
 nav_links:
     left:
-        News: '/news.html'
+        News: '/'
         Hackspace: '/hackspace.html'
         Freifunk: '/freifunk.html'
         PyStaDa: '/pystada.html'
