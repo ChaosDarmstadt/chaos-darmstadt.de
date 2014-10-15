@@ -1,6 +1,6 @@
 # Site settings
 title: Chaos Darmstadt e.V.
-tagline: Ihre verläßliche CCC-Vertretung in Südhessen
+tagline: Ihre verlässliche CCC-Vertretung in Südhessen
 email: info@chaos-darmstadt.de
 description: > # this means to ignore newlines until "baseurl:"
   Hier bitte eine aussagekräftige Beschreibung für Google & Co., damit man euch
@@ -16,3 +16,15 @@ permalink: ":year/:title.html"
 sass:
     sass_dir: _sass
     style: :compressed
+
+nav_links:
+    left:
+        News: '/'
+        CCC-ErfA: '/ccc-erfa.html'
+        Hackspace: '/hackspace.html'
+        Freifunk: '/freifunk.html'
+        PyStaDa: '/pystada.html'
+        C-Radar: '/c-radar.html'
+    right:
+        Wiki: 'https://wiki.chaos-darmstadt.de/'
+        Kontakt: '/kontakt.html'
