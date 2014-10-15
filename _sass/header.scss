@@ -5,12 +5,17 @@
 	-o-background-size: cover; 
 	background-size: cover; 
 	overflow: hidden;
-	position: relative;	
+	position: relative;
+
+	.menu{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 
 	.logo{
 		height: 10rem;
 		padding: 1rem;
-		top: 7rem;
+		top: 6rem;
 		background: $body-bg;
 		right:0;
 		width: 20rem;
@@ -34,6 +39,7 @@
 		} 
 		h1{
 			font-weight: 300;
+			line-height: 1rem;
 			@include small-only{
 				font-size: 3.5rem; 
 				line-height: 4.2rem; 
