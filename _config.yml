@@ -11,6 +11,8 @@ url: "http://www.chaos-darmstadt.de"
 # Build settings
 markdown: kramdown
 
+permalink: ":year/:title.html"
+
 sass:
     sass_dir: _sass
     style: :compressed
