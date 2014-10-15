@@ -25,5 +25,5 @@ nav_links:
         PyStaDa: '/pystada.html'
         C-Radar: '/c-radar.html'
     right:
-        Wiki: '/wiki.html'
+        Wiki: 'https://wiki.chaos-darmstadt.de/'
         Kontakt: '/kontakt.html'
