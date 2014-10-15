@@ -20,7 +20,7 @@ Impressum
 
 Hochschulgruppe Chaos Darmstadt e.V.
 
-Wilhelm-Leuschner-Strasse 36, im Hinterhof  
+Wilhelm-Leuschner-Strasse 36, im [Hinterhof](http://www.openstreetmap.org/?mlat=49.87922&mlon=8.64526#map=19/49.87922/8.64526)  
 64293 Darmstadt  
 info@chaos-darmstadt.de
 
