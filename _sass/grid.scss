@@ -24,7 +24,7 @@ $column-width: ($total / $columns) - $gutter;
 	margin: 0 auto;
 	margin-bottom: $gutter / 5;
 	clear: both;
-	overflow: auto;
+	overflow: hidden;
 	position: relative;
 	@include small-only{
 		margin: 0 20px; 

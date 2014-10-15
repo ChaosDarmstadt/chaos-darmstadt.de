@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-
-<article class="post col-8 push-2">
 {% for post in site.posts %}
-  <div class="post">
-	 <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
-    <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-  </div>
-  <hr>
-{% endfor %}
+<article class="post row">
+	 <div class="post-meta col-2">{{ post.date | date: "%Y-%m-%d" }}</div>
+	 <div class="col-8">
+	     <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+	     {{ post.excerpt }}
+	 </div>
+	 <hr class="col-8 push-2">
 </article>
+{% endfor %}

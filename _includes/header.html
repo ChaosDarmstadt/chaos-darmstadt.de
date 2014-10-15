@@ -13,28 +13,21 @@
 					</div>
 		</div>
 		<nav class="nav row">
-				<ul class="menu col-8 push-2">
-					<li class="nav-item">
-						<a href="/">News</a>
-					</li>
-					<li class="nav-item">
-						<a href="/hackspace.html">Hackspace</a>
-					</li>
-					<li class="nav-item">
-						<a href="/freifunk.html">Freifunk</a>
-					</li>
-					<li class="nav-item">
-						<a href="/pystada.html">PyStaDa</a>
-					</li>
-					<li class="nav-item">
-						<a href="/c-radar.html">C-RaDaR</a>
-					</li>
-					<li class="nav-item" style="float: right">
-						<a href="/imprint.html">Kontakt</a>
-					</li>
-					<li class="nav-item" style="float: right">
-						<a href="https://wiki.chaos-darmstadt.de/">Wiki</a>
-					</li>
-				</ul>
+				<div class="menu col-8 push-2">
+					<ul class="nav-l col-9">
+						{% for link in site.nav_links.left %}
+							<li class="nav-link">
+								<a href="{{ link[1] }}">{{ link[0] }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+					<ul class="nav-r col-3">
+						{% for link in site.nav_links.right %}
+							<li class="nav-link-right">
+								<a href="{{ link[1] }}">{{ link[0] }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
 		</nav>
 	</header>

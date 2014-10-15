@@ -1,0 +1,7 @@
+.post-meta{
+	line-height: 7.5rem;
+	@include small-only{
+		line-height: 1rem;
+		margin-top: 2.5rem;
+	}
+}
