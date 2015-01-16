@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impressum
-permalink: /imprint.html
+permalink: /kontakt.html
 ---
 
 Kontakt
