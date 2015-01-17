@@ -3,8 +3,8 @@ title: Chaos Darmstadt e.V.
 tagline: Ihre verlässliche CCC-Vertretung in Südhessen
 email: info@chaos-darmstadt.de
 description: > # this means to ignore newlines until "baseurl:"
-  Hier bitte eine aussagekräftige Beschreibung für Google & Co., damit man euch
-  auch finden kann und so weiter.
+   Darmstädter Erfahrungs-Austauschkreis des Chaos Computer Club,
+   Hackspace und Hochschulgruppe an der TU Darmstadt
 baseurl: /
 url: "http://www.chaos-darmstadt.de"
 
