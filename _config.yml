@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
    Darmstädter Erfahrungs-Austauschkreis des Chaos Computer Club,
    Hackspace und Hochschulgruppe an der TU Darmstadt
 baseurl: /
+exclude: [vendor]
 url: "http://www.chaos-darmstadt.de"
 
 # Build settings
