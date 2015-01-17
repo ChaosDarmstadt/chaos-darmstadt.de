@@ -1,5 +1,5 @@
 function $(id) {
-    return document.getElementById(id);
+    return document.querySelector(id);
 }
 
 window.onload = function() {
