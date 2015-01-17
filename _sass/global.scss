@@ -17,3 +17,13 @@ a{
 		color: darken($primary-color, 10%);
 	}
 }
+
+span.status-open{
+	font-weight: bold;
+	color: $good-color;
+}
+
+span.status-closed{
+	font-weight: bold;
+	color: $bad-color;
+}
