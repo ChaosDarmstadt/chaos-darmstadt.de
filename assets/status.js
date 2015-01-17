@@ -20,7 +20,11 @@ function getHttpRequest() {
 
     xmlhttp.open("GET", 'http://api.chaos-darmstadt.de/', true);
     xmlhttp.onreadystatechange = function() {
-            $('.row #ergebnis').innerHTML = xmlhttp.responseText;
+        if (xmlhttp.responseText == '1') {
+            $('.row #ergebnis').innerHTML = 'Die Höhle ist offen.';
+        } else {
+            $('.row #ergebnis').innerHTML = 'Die Höhle ist geschlossen.';
+        }
     }
     xmlhttp.send(null);
 }
