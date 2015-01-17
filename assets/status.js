@@ -3,8 +3,7 @@ function $(id) {
 }
 
 window.onload = function() {
-       getHttpRequest();
-    }
+	 getHttpRequest();
 }
 
 function getHttpRequest() {
