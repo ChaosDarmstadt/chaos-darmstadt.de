@@ -18,7 +18,7 @@ function getHttpRequest() {
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
 
-    xmlhttp.open("GET", 'http://chaos.rainbownerds.de/api.html', true);
+    xmlhttp.open("GET", 'http://api.chaos-darmstadt.de/', true);
     xmlhttp.onreadystatechange = function() {
             $('.row #ergebnis').innerHTML = xmlhttp.responseText;
     }
