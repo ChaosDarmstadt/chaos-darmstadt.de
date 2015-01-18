@@ -18,7 +18,7 @@ function getHttpRequest() {
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
 
-    xmlhttp.open("GET", 'http://api.chaos-darmstadt.de/', true);
+    xmlhttp.open("GET", '//chaos-darmstadt.de/api', true);
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.responseText == '1') {
             $('.row #ergebnis').innerHTML = 'Die Höhle ist <span class="status-open">offen</span>.';
