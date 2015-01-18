@@ -15,7 +15,7 @@
 	.logo{
 		height: 10rem;
 		padding: 1rem;
-		top: 5.5rem;
+		top: 2.5rem;
 		background: $body-bg;
 		right:0;
 		width: 20rem;
@@ -31,6 +31,7 @@
 
 	.hero{
 		width: 100%;
+		margin-top: 3.5rem;
 		@include small-only{
 			padding-top: 0px;
 		}
@@ -42,6 +43,7 @@
 		h1{
 			font-weight: 300;
 			line-height: 4rem;
+			margin-top: 0;
 			@include small-only{
 				font-size: 3.5rem; 
 			}
