@@ -26,6 +26,7 @@ nav_links:
         Freifunk: '/freifunk.html'
         PyStaDa: '/pystada.html'
         C-Radar: '/c-radar.html'
+        WizardsOfDos: '/wizardsofdos.html'
     right:
         Wiki: 'https://wiki.chaos-darmstadt.de/'
         Kontakt: '/kontakt.html'
