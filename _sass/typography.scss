@@ -5,7 +5,11 @@
 		font-size: #{$fz}rem;
 		color: $primary-color; 
 		font-family: $font-family;
-		font-weight: 300;
+		@if $i == 4 {
+			font-weight: 400;
+		} @else {
+			font-weight: 300;
+		}
 		line-height: ($font-scale / (6 / $i / $fz));
 		margin-top: ($fz / 3) * 1;
 		margin-bottom: ($fz / 3) * 2;
