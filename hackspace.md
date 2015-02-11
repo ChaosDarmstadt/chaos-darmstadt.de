@@ -7,7 +7,7 @@ permalink: /hackspace.html
 Hackspace
 =========
 
-Jeden Dienstag ab 19:00 Uhr steht unsere Tür beim **Open Chaos** neugierigen Besucher_innen offen.
+Jeden Dienstag ab 19:00 Uhr steht [unsere Tür](http://www.openstreetmap.org/node/546876934) beim **Open Chaos** neugierigen Besucher_innen offen.
 Hier treffen wir uns zum Socializen, gemeinsamen Basteln oder zum Diskutieren
 aktueller Themen. Wenn du neu zu uns stoßen willst, kommst du am Besten
 hierher.
