@@ -18,4 +18,4 @@ ihr [hier](https://www.youtube.com/watch?v=q5zAZkVeUNk) eine Vorstellung unseres
 Demnächst werden wir uns dann auch eine Katze in unserem Hackerspace anschaffen. Katzen scheinen nach unseren ersten Nachforschungen sehr wichtig für
 das Erstellen von Youtube-Videos zu sein.
 
-
+Im Übrigen möchte der Vorstand Olf darauf hinweisen, dass sein Mitgliedsbeitrag für mehrere Jahre noch aussteht!
