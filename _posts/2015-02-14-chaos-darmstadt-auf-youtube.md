@@ -15,4 +15,7 @@ natürlich auch eine zentrale Speicherung der Videos von Vorteil, da dann viel b
 Daher danken wir den Menschen von Entropia und dem sublab, dass sie uns bei unserem Weg in dieses Neuland beratend unterstützt haben. Als erstes Ergebnis erhaltet
 ihr [hier](https://www.youtube.com/watch?v=q5zAZkVeUNk) eine Vorstellung unseres Hackerspaces, erstellt von unserem langjährigen Mitglied Olf.
 
+Demnächst werden wir uns dann auch eine Katze in unserem Hackerspace anschaffen. Katzen scheinen nach unseren ersten Nachforschungen sehr wichtig für
+das Erstellen von Youtube-Videos zu sein.
+
 
