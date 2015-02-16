@@ -23,5 +23,6 @@ Wir empfehlen die Anreise per Fahrrad oder mit öffentlichen Verkehrsmitteln.
 Unter der Treppe befinden sich Fahrradständer.
 
 Bei der Anfahrt mit öffentlichen Verkehrsmitteln ist es am einfachsten mit dem Bus oder der Straßenbahn bis zum *Willy-Brand-Platz* zu fahren und von dort zu laufen.
+Außerdem ist es möglich mit der Bus-Linie *L* zur Haltestelle *Kahlertstraße* zu fahren und von dort aus den Fußweg anzutreten.
 
 Die Anfahrt mit dem Auto ist natürlich auch möglich. Allerdings gibt es keine Garantie einen Parkplatz zu finden.
