@@ -4,6 +4,7 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "fonts";
 @import "normalize";
 @import "variables";
 @import "reset";
@@ -16,4 +17,3 @@
 @import "post";
 @import "footer";
 @import "mobile";
-@import "fonts";
