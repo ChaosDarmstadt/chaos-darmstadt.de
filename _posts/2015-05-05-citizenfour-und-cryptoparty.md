@@ -5,7 +5,7 @@ date:   2015-05-05 23:30
 categories: kategorie
 ---
 
-Am 7. Mai., also diesen Donnerstag, läuft [Citizenfour](https://citizenfourfilm.com/), die oscarprämierte Dokumentation über Edward Snowden, im
+Am 7. Mai, also diesen Donnerstag, läuft [Citizenfour](https://citizenfourfilm.com/), die oscarprämierte Dokumentation über Edward Snowden, im
 [Unikino](https://www.filmkreis.tu-darmstadt.de/programm/aktuell/2300/Citizenfour).
 Im Anschluss werden wir einen Vortrag über die Hintergründe der Ereignisse und mögliche Konsequenzen für die Zivilgesellschaft halten.
 
