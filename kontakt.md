@@ -33,7 +33,7 @@ Chaos Darmstadt e.V.
 Kontonummer: 711853  
 BLZ: 50850150  
 Bank: Sparkasse Darmstadt  
-IBAN: DE96508501500000711853  
+IBAN: DE96 5085 0150 0000 7118 53  
 BIC: HELADEF1DAS  
 
 Der Verein ist **gemeinnützig**, Spendenbescheinigungen gibt's beim
