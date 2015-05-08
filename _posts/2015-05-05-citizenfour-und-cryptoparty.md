@@ -15,4 +15,5 @@ Landgraf-Georg-Straße 4 statt.
 
 Wir freuen uns bei beiden Veranstaltungen über zahlreiches Erscheinen!
 
-Die Folien vom Einführungsvortrag findet ihr hier: [Folien Cryptoparty](/downloads/2015-05-08-cryptopartyfolien.pdf)
+Die (vorläufigen) Folien vom Einführungsvortrag findet ihr hier: [Folien Cryptoparty](/downloads/2015-05-08-cryptopartyfolien.pdf)
+Wir werden diese nach der Party noch mit weiteren Links und Infos updaten, also schaut am besten morgen nochmal vorbei.
