@@ -31,10 +31,9 @@ Sicherheitstests spezialisierte Linux-Distribution. Unsere 7 Gäste begannen,
 sich in die Aufgaben einzulesen. Bei Fragen oder wenn mal jemand nicht weiter
 wusste, haben wir gerne Tipps gegeben und jedem geholfen.
 
-Irgendwann nach 23 Uhr beendeten wir den Wettkampf, Gewinner war TODOO?. Es
-verließen uns 7 vermeintlich glückliche Schüler von denen 6 nächstes Semester
-ihr Studium in Darmstadt beginnen. Sie haben bei uns ein grundlegendes
-Verständnis dafür erworben, wie Sicherheitslücken in Software entstehen und
-funktionieren  - ein Wissen das vielen Informatikabsolventen leider immernoch
-abgeht.
+Irgendwann nach 23 Uhr beendeten wir den Wettkampf. Es verließen uns 7 Schüler
+von denen 6 nächstes Semester ihr Studium beginnen. Sie haben bei uns ein
+grundlegendes Verständnis dafür erworben, wie Sicherheitslücken in Software
+entstehen und funktionieren  - ein Wissen das vielen Informatikabsolventen
+leider immernoch abgeht.
 
