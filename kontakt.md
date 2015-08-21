@@ -10,7 +10,7 @@ Kontakt
 Wie erreicht man uns:
 
 Im IRC, channel #chaos-darmstadt im [hackint](http://www.hackint.eu/)  
-Per mail an die öffentliche Mailingliste [darmstadt@lists.metarheinmain.de](mailto:darmstadt@lists.metarheinmain.de)  
+Per mail an die öffentliche Mailingliste [darmstadt@lists.metarheinmain.de](https://lists.metarheinmain.de/mailman/listinfo/darmstadt)  
 Per Telefon +49 6151 6274854 oder direkt in die Trollhöhle +49 40 401801 9601  
 Manchmal auch via Twitter: [@chaosdarmstadt](https://twitter.com/chaosdarmstadt) und [@trollhoehle](https://twitter.com/trollhoehle)
 
