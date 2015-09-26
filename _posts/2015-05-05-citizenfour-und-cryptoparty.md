@@ -9,7 +9,7 @@ Am 7. Mai, also diesen Donnerstag, läuft [Citizenfour](https://citizenfourfilm.
 [Unikino](https://www.filmkreis.tu-darmstadt.de/programm/aktuell/2300/Citizenfour).
 Im Anschluss werden wir einen Vortrag über die Hintergründe der Ereignisse und mögliche Konsequenzen für die Zivilgesellschaft halten.
 
-Weiterhin werden wir am Freitag, in Kooperation mit dem Computerwerk, eine [Cryptoparty](http://www.computerwerk.org/cryptoparty.html) veranstalten,
+Weiterhin werden wir am Freitag, in Kooperation mit dem Computerwerk, eine [Cryptoparty](http://www.computerwerk.org/veranstaltungen.html) veranstalten,
 um allen Interessierten den Umgang mit Verschlüsselung beizubringen. Diese findet um 19:00 Uhr in den Räumen 109 und 119 im TU-Gebäude S3|10 in der
 Landgraf-Georg-Straße 4 statt.
 
