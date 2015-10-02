@@ -30,11 +30,9 @@ unter der Vereinregisternummer 3413.
 Mitgliedsbeiträge, Spenden, Schwarze Koffer etc. bitte an
 
 Chaos Darmstadt e.V.  
-Kontonummer: 711853  
-BLZ: 50850150  
-Bank: Sparkasse Darmstadt  
-IBAN: DE96 5085 0150 0000 7118 53  
-BIC: HELADEF1DAS  
+IBAN: DE47 5089 0000 0064 3445 01  
+BIC: GENODEF1VBD  
+Volksbank Darmstadt - Südhessen eG  
 
 Der Verein ist **gemeinnützig**, Spendenbescheinigungen gibt's beim
 [Vorstand](mailto:vorstand@chaos-darmstadt.de).
