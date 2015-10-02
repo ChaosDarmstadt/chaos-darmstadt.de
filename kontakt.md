@@ -34,5 +34,4 @@ IBAN: DE47 5089 0000 0064 3445 01
 BIC: GENODEF1VBD  
 Volksbank Darmstadt - Südhessen eG  
 
-Der Verein ist **gemeinnützig**, Spendenbescheinigungen gibt's beim
-[Vorstand](mailto:vorstand@chaos-darmstadt.de).
+Der Verein ist **gemeinnützig**. Für Spendenbescheinigungen bitte ins [Wiki](https://wiki.chaos-darmstadt.de/wiki/Verein#Spendenbescheinigungen) schauen.
