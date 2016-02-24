@@ -7,7 +7,7 @@ permalink: /wizardsofdos.html
 WizardsOfDos
 =========
 
-[**WizardsOfDos**](http://wizardsofdos.de/) ist unser Team
+[**WizardsOfDos**](https://wizardsofdos.de/) ist unser Team
 für "Capture The Flag"-Wettbewerbe, kurz CTFs. Bei CTFs handelt
 es sich um IT-Security-Wettbewerbe, bei denen man versucht,
 ein vorgegebenes, speziell präpariertes System anzugreifen.
