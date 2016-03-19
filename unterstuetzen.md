@@ -7,11 +7,13 @@ permalink: /unterstuetzen.html
 Unterstützen
 ============
 
-Wenn du uns unterstützen möchtest, kannst du das durch eine Mitgliedschaft oder eine Spende tun.
-Körperschaften (andere Vereine, Unternehmen, etc.) können als Fördermitglieder aufgenommen werden.
+Wenn du uns unterstützen möchtest, kannst du das durch eine
+[Mitgliedschaft](https://www.chaos-darmstadt.de/downloads/mitgliedsantrag.pdf)
+oder eine Spende tun. Körperschaften (andere Vereine, Unternehmen, etc.)
+können als Fördermitglieder aufgenommen werden.
 
-Genauere Informationen findest du im [Wiki](https://wiki.chaos-darmstadt.de/)
-und in der [Dokumentation](https://git.darmstadt.ccc.de/vorstand/doku/blob/master/README.md).
+Informationen zu Spenden findest du auf der
+[Infoseite des Vorstands](https://git.darmstadt.ccc.de/vorstand/doku/blob/master/README.md).
 
 
 Förderer
