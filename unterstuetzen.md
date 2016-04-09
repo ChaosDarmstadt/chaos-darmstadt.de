@@ -16,7 +16,7 @@ Anträge:
 * [Mitgliedschaft](https://www.chaos-darmstadt.de/downloads/mitgliedsantrag.pdf)
 * [Fördermitgliedschaft für juristische Personen](https://www.chaos-darmstadt.de/downloads/Antrag-Fördermitgliedschaft-juristische-Person.pdf)
 
-Der Verein ist als gemeinn�tzig anerkannt, das hei�t Spenden und Mitgliedsbeitr�ge k�nnen von der Steuer abgesetzt werden.
+Der Verein ist als gemeinnützig anerkannt, das heißt Spenden und Mitgliedsbeiträge können von der Steuer abgesetzt werden.
 Informationen zu Spenden sind auf der [Infoseite des Vorstands](https://git.darmstadt.ccc.de/vorstand/doku/blob/master/README.md) zu finden.
 
 Förderer
