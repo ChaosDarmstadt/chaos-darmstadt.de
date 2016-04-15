@@ -13,7 +13,7 @@ Vereine, Kommunen und andere juristische Personen, können uns als Fördermitgli
 
 Anträge:
 
-* [Mitgliedschaft](https://www.chaos-darmstadt.de/downloads/mitgliedsantrag.pdf)
+* [Mitgliedschaft](https://www.chaos-darmstadt.de/downloads/Antrag-Mitgliedschaft.pdf)
 * [Fördermitgliedschaft für juristische Personen](https://www.chaos-darmstadt.de/downloads/Antrag-Fördermitgliedschaft-juristische-Person.pdf)
 
 Der Verein ist als gemeinnützig anerkannt, das heißt Spenden und Mitgliedsbeiträge können von der Steuer abgesetzt werden.
