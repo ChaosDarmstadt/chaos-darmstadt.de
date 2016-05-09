@@ -1,3 +1,7 @@
+.post ul, .post ol {
+	list-style-position: inside;
+}
+
 .post-meta{
 	line-height: 7.5rem;
 	@include small-only{
