@@ -20,6 +20,6 @@ Kriterien:
 
 
 Sollten Sie entsprechende Räumlichkeiten zu vermieten haben oder jemanden kennen, so schreiben Sie uns einfach an
-[info@chaos-darmstadt.de](info@chaos-darmstadt.de).
+[info@chaos-darmstadt.de](mailto:info@chaos-darmstadt.de).
 
 Wir freuen uns auf Unterstützung und (Raum-)Angebote!
