@@ -12,6 +12,14 @@
 		padding-bottom: 0;
 	}
 
+	.progress{
+                position: absolute;
+                height: 100%;
+                width: 0%;
+	        background: #dd6300  repeat fixed center center;
+                transition: width 2s ease-in-out;
+	        }
+
 	.logo{
 		height: 10rem;
 		padding: 1rem;
@@ -65,7 +73,7 @@
 
 	.nav{
 		margin-bottom: 25px;
-		position: initial;
+		position: block;
 		ul{
 			list-style: none;
 			margin: 0;

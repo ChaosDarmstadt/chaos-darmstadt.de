@@ -4,6 +4,7 @@ function $(id) {
 
 window.onload = function() {
 	 getHttpRequest();
+	 $('.progress').style.width='30%';
 }
 
 function getHttpRequest() {

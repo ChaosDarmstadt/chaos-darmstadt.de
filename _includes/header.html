@@ -1,7 +1,10 @@
 <header class="header">
+  <div class="progress">
+</div>
 		<div class="logo">
 			<img src="{{ site.baseurl }}assets/logo.jpg" alt="Logo">
-		</div>
+
+			</div>
 		<div class="hero row">
 					<div class="col-7 push-2">
 						<a href="{{ site.baseurl }}" title ="Home">
@@ -12,11 +15,12 @@
 						</h4>
 					</div>
 		</div>
-		<nav class="nav row">
-				<div class="menu col-10 push-1">
-					<div class="status">
+		  					<div class="status">
 						<span id="ergebnis">Status wird abgerufen…</span>
 					</div>
+		<nav class="nav row">
+				<div class="menu col-10 push-1">
+
 					<ul class="nav-l col-8">
 						{% for link in site.nav_links.left %}
 							<li class="nav-link">
