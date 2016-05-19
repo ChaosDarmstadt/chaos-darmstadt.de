@@ -4,7 +4,19 @@ function $(id) {
 
 window.onload = function() {
 	 getHttpRequest();
-	 $('.progress').style.width='30%';
+	 setTimeout(() => {
+     var xml = new XMLHttpRequest();
+     xml.open("GET", "https://robinie.rechnerpool.de/status.txt", true);
+     xml.onreadystatechange = function() {
+if(xml.readyState == 4) {
+       var resp = xml.responseText.replace(/^\s+|\s+$/g, '') + "%";
+       $('.progress').style.width = resp;
+       $('#description-text').innerHTML = "Umzug at " + resp;
+       $('#description-text').style.opacity = "1";
+     }}
+     xml.send();
+ }, 500);
+
 }
 
 function getHttpRequest() {

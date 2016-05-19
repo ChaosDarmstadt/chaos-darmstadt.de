@@ -1,9 +1,9 @@
 .header{
-	background: $primary-color 
+	background: $primary-color
 				url(../assets/header.jpg) center;
-	-webkit-background-size: cover; 
-	-o-background-size: cover; 
-	background-size: cover; 
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	overflow: hidden;
 	position: relative;
 
@@ -12,13 +12,38 @@
 		padding-bottom: 0;
 	}
 
-	.progress{
+	.progress {
                 position: absolute;
                 height: 100%;
                 width: 0%;
-	        background: #dd6300  repeat fixed center center;
+                background: $primary-color url(../assets/newspace.jpg) repeat fixed center left;
+								border-right: $primary-color 2px solid;
                 transition: width 2s ease-in-out;
-	        }
+								-webkit-background-size: cover;
+								-o-background-size: cover;
+								background-size: cover;
+
+								.description {
+
+										position: absolute;
+										width: 100%;
+										height: 12%;
+										background-color: rgb(221, 83, 0);
+										bottom: 0px;
+										text-align: center;
+
+
+									p {
+								margin: auto;
+								line-height: 230%;
+								color: white;
+								transition: opacity 1.5s ease-in-out;
+								opacity: 0;
+								}
+
+							}
+
+						}
 
 	.logo{
 		height: 10rem;
@@ -55,18 +80,18 @@
 			color: $header-color;
 			line-height: 1;
 			margin-bottom: 0;
-		} 
+		}
 		h1{
 			font-weight: 300;
 			line-height: 4rem;
 			margin-top: 0;
 			@include small-only{
-				font-size: 3.5rem; 
+				font-size: 3.5rem;
 			}
 		}
 		h4{
 			@include small-only{
-				 
+
 			}
 		}
 	}
