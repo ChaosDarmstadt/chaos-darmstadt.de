@@ -4,6 +4,19 @@ function $(id) {
 
 window.onload = function() {
 	 getHttpRequest();
+	 setTimeout(() => {
+     var xml = new XMLHttpRequest();
+     xml.open("GET", "progress", true);
+     xml.onreadystatechange = function() {
+if(xml.readyState == 4) {
+       var resp = xml.responseText.replace(/^\s+|\s+$/g, '') + "%";
+       $('.progress').style.width = resp;
+       $('#description-text').innerHTML = "Umzug at " + resp;
+       $('#description-text').style.opacity = "1";
+     }}
+     xml.send();
+ }, 500);
+
 }
 
 function getHttpRequest() {
