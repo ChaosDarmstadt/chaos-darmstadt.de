@@ -6,7 +6,7 @@ window.onload = function() {
 	 getHttpRequest();
 	 setTimeout(() => {
      var xml = new XMLHttpRequest();
-     xml.open("GET", "https://robinie.rechnerpool.de/status.txt", true);
+     xml.open("GET", "progress", true);
      xml.onreadystatechange = function() {
 if(xml.readyState == 4) {
        var resp = xml.responseText.replace(/^\s+|\s+$/g, '') + "%";
