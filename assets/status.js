@@ -11,7 +11,7 @@ window.onload = function() {
 if(xml.readyState == 4) {
        var resp = xml.responseText.replace(/^\s+|\s+$/g, '') + "%";
        $('.progress').style.width = resp;
-       $('#description-text').innerHTML = "Umzug at " + resp;
+       $('#description-text').innerHTML = "Umzug bei " + resp;
        $('#description-text').style.opacity = "1";
      }}
      xml.send();
