@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Vereinsräume gesucht"
+title:  "Vereinsräume <s>gesucht</s> gefunden"
 date:   2016-05-09 19:00
 categories: kategorie
 ---
+
+**Update**: Wir haben neue Räume gefunden! Vielen Dank für alle Hinweise! Näheres dazu in Kürze hier.
 
 Wir sind der Chaos Darmstadt e.V., lokaler Ableger des Chaos Computer Club und Hochschulgruppe der TU Darmstadt; eines unserer Projekte ist [Freifunk Darmstadt](https://darmstadt.freifunk.net).
 
