@@ -34,9 +34,9 @@ function getHttpRequest() {
     xmlhttp.open("GET", '//api.chaos-darmstadt.de/', true);
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.responseText == '1') {
-            $('.status #ergebnis').innerHTML = 'Die Höhle ist <span class="status-open">offen</span>.';
+            $('.status #ergebnis').innerHTML = 'Die W17 ist  <span class="status-open">offen</span>.';
         } else {
-            $('.status #ergebnis').innerHTML = 'Die Höhle ist <span class="status-closed">geschlossen</span>.';
+            $('.status #ergebnis').innerHTML = 'Die W17 ist <span class="status-closed">geschlossen</span>.';
         }
     }
     xmlhttp.send(null);
