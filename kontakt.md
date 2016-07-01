@@ -20,8 +20,8 @@ Impressum
 
 Chaos Darmstadt e.V.
 
-Wilhelm-Leuschner-Strasse 36, im [Hinterhof](https://www.openstreetmap.org/?mlat=49.87922&mlon=8.64526#map=19/49.87922/8.64526)  
-64293 Darmstadt  
+Wilhelminenstraße 17
+64283 Darmstadt
 info@chaos-darmstadt.de
 
 Chaos Darmstadt ist eingetragen im Vereinsregister des Amtsgerichts Darmstadt
