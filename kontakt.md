@@ -9,9 +9,9 @@ Kontakt
 
 Wie erreicht man uns:
 
-Im IRC, channel #chaos-darmstadt im [hackint](http://www.hackint.eu/)  
-Per mail an die öffentliche Mailingliste [public@lists.darmstadt.ccc.de](https://lists.darmstadt.ccc.de/mailman/listinfo/public)  
-Per Telefon [+49 6151 6274854](tel:+4961516274854) oder direkt in die Trollhöhle [+49 40 401801 9601](tel:+49404018019601)
+Im IRC, Channel #chaos-darmstadt im [hackint](http://www.hackint.eu/)
+Per Mail an die öffentliche Mailingliste [public@lists.darmstadt.ccc.de](https://lists.darmstadt.ccc.de/mailman/listinfo/public)
+Per Telefon direkt im Hackspace [+49 6151 6274854](tel:+4961516274854)
 Manchmal auch via Twitter: [@chaosdarmstadt](https://twitter.com/chaosdarmstadt) und [@trollhoehle](https://twitter.com/trollhoehle)
 
 
