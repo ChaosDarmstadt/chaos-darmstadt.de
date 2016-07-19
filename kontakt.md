@@ -20,9 +20,9 @@ Impressum
 
 Chaos Darmstadt e.V.
 
-Wilhelminenstraße 17
-64283 Darmstadt
-info@chaos-darmstadt.de
+Wilhelminenstraße 17  
+64283 Darmstadt  
+info@chaos-darmstadt.de  
 
 Chaos Darmstadt ist eingetragen im Vereinsregister des Amtsgerichts Darmstadt
 unter der Vereinregisternummer 3413.
