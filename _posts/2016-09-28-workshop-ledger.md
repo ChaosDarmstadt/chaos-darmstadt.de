@@ -5,7 +5,7 @@ date:   2016-09-28
 categories: kategorie
 ---
 
-Kommenden Dienstag, am 4.10., wird maralorn seine Erfahrungen und Werkzeuge mit der Buchhaltung vorstellen. Lasst euch einladen:
+Kommenden Dienstag, am 4.10. ab 20:00 Uhr, wird maralorn seine Erfahrungen und Werkzeuge mit der Buchhaltung vorstellen. Lasst euch einladen:
 
 ---
 
