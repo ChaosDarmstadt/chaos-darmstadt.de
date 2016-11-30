@@ -15,5 +15,5 @@ die hiesige Vertretung des CCC. Wir treffen uns in unserem
 Alternativ sind wir auch über elektronische Medien zu erreichen, siehe [Kontakt](/kontakt.html).
 
 Wenn du bei uns Mitglied werden willst, lass uns einfach den ausgefüllten
-[Mitgliedsantrag](/downloads/mitgliedsantrag.pdf) zukommen.
+[Mitgliedsantrag](https://www.chaos-darmstadt.de/downloads/Antrag-Mitgliedschaft.pdf) zukommen.
 
