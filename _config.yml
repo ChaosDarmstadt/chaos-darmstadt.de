@@ -20,7 +20,6 @@ sass:
 nav_links:
     left:
         News: '/'
-#        CCC-ErfA: '/ccc-erfa.html'
         Hackspace: '/hackspace.html'
         Freifunk: '/freifunk.html'
         WizardsOfDos: '/wizardsofdos.html'
