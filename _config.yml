@@ -20,11 +20,11 @@ sass:
 nav_links:
     left:
         News: '/'
-        CCC-ErfA: '/ccc-erfa.html'
+#        CCC-ErfA: '/ccc-erfa.html'
         Hackspace: '/hackspace.html'
         Freifunk: '/freifunk.html'
-        C-Radar: '/c-radar.html'
         WizardsOfDos: '/wizardsofdos.html'
+        C-Radar: '/c-radar.html'
     right:
         Kontakt: '/kontakt.html'
         Unterstützen: '/unterstuetzen.html'
