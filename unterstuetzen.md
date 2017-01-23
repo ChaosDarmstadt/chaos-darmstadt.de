@@ -26,3 +26,4 @@ Derzeit unterstützen uns diese Organisationen:
 
 * Wir sind Erfahrungsaustauschkreis des [CCC e.V.](https://ccc.de/de/regional)
 * Wir sind Hochschulgruppe der [TU Darmstadt](https://www.tu-darmstadt.de/studieren/campusleben/engagement_student/hochschulgruppen.en.jsp)
+* Wir sind Hochschulgruppe der [h_da](http://www.asta-hochschule-darmstadt.de/service/akkreditierung-von-hochschulgruppen/)
