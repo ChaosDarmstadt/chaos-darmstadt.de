@@ -1,6 +1,6 @@
 var eventList = []
 
-function Event (start, event) {
+function Event (start, event, cancelled) {
     if (!(start instanceof Date)) {
         start = start.toJSDate()
     }
@@ -8,6 +8,7 @@ function Event (start, event) {
     this.summary = event.summary || 'No title'
     this.description = event.description
     this.event = event
+    this.cancelled = cancelled
 }
 
 Event.prototype.toHTML = function () {
@@ -45,11 +46,15 @@ Event.prototype.toHTML = function () {
     div_cal.appendChild(div_datetime)
     div_cal.appendChild(div_description)
 
-    if (this.description != null) {
+    if (this.description !== null) {
         var span_description = document.createElement('span')
         span_description.setAttribute('class', 'cal_description')
         span_description.appendChild(document.createTextNode(this.description))
         div_description.appendChild(span_description)
+    }
+
+    if (this.cancelled === true) {
+      div_cal.style.textDecorationLine = "line-through"
     }
 
     return div_cal
@@ -74,11 +79,29 @@ function parseIcalData(data) {
 
             while ((next = expand.next()) && next.toJSDate() < timeRangeStop) {
                 if (timeRangeStart < next.toJSDate() && next.toJSDate() < timeRangeStop) {
-                    eventList.push(new Event(next, event))
+                    var excluded = false
+                    var props = event.component.getAllProperties();
+                    for(var i in props) {
+                        if (props[i].name == "exdate" && next.toJSDate().getTime() ==
+                            props[i].getFirstValue().toJSDate().getTime()) {
+                            excluded = true
+                        }
+                    }
+                    eventList.push(new Event(next, event, excluded))
                 }
             }
         } else if (eventInTimeRange(event, timeRangeStart, timeRangeStop)) {
-                eventList.push(new Event(event.startDate, event))
+            // check for cancelled events and cancel the original event
+            if (event.component.getFirstPropertyValue("status") == "CANCELLED") {
+                for(var i in eventList) {
+                    if (eventList[i].event.uid == event.uid &&
+                        eventList[i].start.getTime() == event.startDate.toJSDate().getTime()) {
+                        eventList[i].cancelled = true
+                    }
+                }
+            } else {
+                eventList.push(new Event(event.startDate, event, false))
+            }
         }
     })
 }
