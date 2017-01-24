@@ -21,6 +21,7 @@ nav_links:
     left:
         News: '/'
         Hackspace: '/hackspace.html'
+        Termine: '/termine.html'
         Freifunk: '/freifunk.html'
         WizardsOfDos: '/wizardsofdos.html'
         C-Radar: '/c-radar.html'
