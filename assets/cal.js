@@ -1,6 +1,7 @@
 var eventList = []
+var cancelledEvents = {}
 
-function Event (start, event, cancelled) {
+function Event (start, event) {
     if (!(start instanceof Date)) {
         start = start.toJSDate()
     }
@@ -8,7 +9,12 @@ function Event (start, event, cancelled) {
     this.summary = event.summary || 'No title'
     this.description = event.description
     this.event = event
-    this.cancelled = cancelled
+}
+
+Event.prototype.isCancelled = function () {
+    if (cancelledEvents[this.event.uid] instanceof Array
+        && cancelledEvents[this.event.uid].includes(this.start.getTime())) return true
+    return false
 }
 
 Event.prototype.toHTML = function () {
@@ -46,15 +52,15 @@ Event.prototype.toHTML = function () {
     div_cal.appendChild(div_datetime)
     div_cal.appendChild(div_description)
 
-    if (this.description !== null) {
+    if (this.description != null) {
         var span_description = document.createElement('span')
         span_description.setAttribute('class', 'cal_description')
         span_description.appendChild(document.createTextNode(this.description))
         div_description.appendChild(span_description)
     }
 
-    if (this.cancelled === true) {
-      div_cal.style.textDecorationLine = "line-through"
+    if (this.isCancelled()) {
+        div_cal.setAttribute('style', 'text-decoration: line-through')
     }
 
     return div_cal
@@ -74,36 +80,29 @@ function parseIcalData(data) {
         var event = new ICAL.Event(e)
 
         if (event.isRecurring()) {
-            var recur = event.component.getFirstPropertyValue('rrule');
-            var dtstart = event.component.getFirstPropertyValue('dtstart');
-            var expand = recur.iterator(dtstart);
-
+            var expand = event.iterator()
             var next
+            var exList = []
+            event.component.getAllProperties('exdate').map(function (ex) {
+                exList.push(ex.getFirstValue().toJSDate().getTime())
+            })
 
             while ((next = expand.next()) && next.toJSDate() < timeRangeStop) {
-                if (timeRangeStart < next.toJSDate() && next.toJSDate() < timeRangeStop) {
-                    // add the event from the recurring event
-                    eventList.push(new Event(next, event, false))
+                if (!exList.includes(next.toJSDate().getTime())
+                    && timeRangeStart < next.toJSDate() && next.toJSDate() < timeRangeStop) {
+                    eventList.push(new Event(next, event))
                 }
             }
         } else if (eventInTimeRange(event, timeRangeStart, timeRangeStop)) {
-            // check for cancelled (recurring) events and cancel the original event
             if (event.component.getFirstPropertyValue("status") == "CANCELLED") {
-                var foundEvent = false
-                for(var i in eventList) {
-                    if (eventList[i].event.uid == event.uid &&
-                        eventList[i].start.getTime() == event.startDate.toJSDate().getTime()) {
-                        eventList[i].cancelled = true
-                        foundEvent = true
-                    }
+                console.log(event)
+                if (!(cancelledEvents[event.uid] instanceof Array)) {
+                    cancelledEvents[event.uid] = []
                 }
-                if (!foundEvent) {
-                    // this is a non-recurring cancelled event
-                    eventList.push(new Event(event.startDate, event, true))
-                }
+
+                cancelledEvents[event.uid].push(event.startDate.toJSDate().getTime())
             } else {
-                // add the (non-cancelled) event
-                eventList.push(new Event(event.startDate, event, false))
+                eventList.push(new Event(event.startDate, event))
             }
         }
     })
