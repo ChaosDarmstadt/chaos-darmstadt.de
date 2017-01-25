@@ -93,11 +93,16 @@ function parseIcalData(data) {
         } else if (eventInTimeRange(event, timeRangeStart, timeRangeStop)) {
             // check for cancelled events and cancel the original event
             if (event.component.getFirstPropertyValue("status") == "CANCELLED") {
+                var foundEvent = false
                 for(var i in eventList) {
                     if (eventList[i].event.uid == event.uid &&
                         eventList[i].start.getTime() == event.startDate.toJSDate().getTime()) {
                         eventList[i].cancelled = true
+                        foundEvent = true
                     }
+                }
+                if (!foundEvent) {
+                    eventList.push(new Event(event.startDate, event, true))
                 }
             } else {
                 eventList.push(new Event(event.startDate, event, false))
