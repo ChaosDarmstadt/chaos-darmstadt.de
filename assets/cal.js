@@ -74,21 +74,16 @@ function parseIcalData(data) {
         var event = new ICAL.Event(e)
 
         if (event.isRecurring()) {
-            var expand = event.iterator()
+            var recur = event.component.getFirstPropertyValue('rrule');
+            var dtstart = event.component.getFirstPropertyValue('dtstart');
+            var expand = recur.iterator(dtstart);
+
             var next
 
             while ((next = expand.next()) && next.toJSDate() < timeRangeStop) {
                 if (timeRangeStart < next.toJSDate() && next.toJSDate() < timeRangeStop) {
-                    var excluded = false
-                    var props = event.component.getAllProperties();
-                    for(var i in props) {
-                        if (props[i].name == "exdate" && next.toJSDate().getTime() ==
-                            props[i].getFirstValue().toJSDate().getTime()) {
-                            excluded = true
-                        }
-                    }
-                    // add the event if it's not excluded from the recurring event
-                    if (!excluded) eventList.push(new Event(next, event, false))
+                    // add the event from the recurring event
+                    eventList.push(new Event(next, event, false))
                 }
             }
         } else if (eventInTimeRange(event, timeRangeStart, timeRangeStop)) {
