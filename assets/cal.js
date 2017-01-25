@@ -87,11 +87,12 @@ function parseIcalData(data) {
                             excluded = true
                         }
                     }
-                    eventList.push(new Event(next, event, excluded))
+                    // add the event if it's not excluded from the recurring event
+                    if (!excluded) eventList.push(new Event(next, event, false))
                 }
             }
         } else if (eventInTimeRange(event, timeRangeStart, timeRangeStop)) {
-            // check for cancelled events and cancel the original event
+            // check for cancelled (recurring) events and cancel the original event
             if (event.component.getFirstPropertyValue("status") == "CANCELLED") {
                 var foundEvent = false
                 for(var i in eventList) {
@@ -102,9 +103,11 @@ function parseIcalData(data) {
                     }
                 }
                 if (!foundEvent) {
+                    // this is a non-recurring cancelled event
                     eventList.push(new Event(event.startDate, event, true))
                 }
             } else {
+                // add the (non-cancelled) event
                 eventList.push(new Event(event.startDate, event, false))
             }
         }
